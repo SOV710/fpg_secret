@@ -1,0 +1,8 @@
+# CMake
+build
+
+# Clagnd
+.cache
+
+# Answers directory (for instructors only)
+answers/

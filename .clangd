@@ -1,0 +1,19 @@
+CompileFlags:
+  Add:
+    - "-std=c++20"
+    - "-Wall"
+    - "-Wextra"
+  Remove:
+    - "-std=c++*"
+
+Diagnostics:
+  UnusedIncludes: Strict
+  MissingIncludes: Strict
+
+InlayHints:
+  Enabled: Yes
+  ParameterNames: Yes
+  DeducedTypes: Yes
+
+Hover:
+  ShowAKA: Yes
